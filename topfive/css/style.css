@@ -77,9 +77,12 @@ ol {
     gap: 20px;
     padding: 10px;
     list-style: none;
-    max-height: 300px;
     justify-content: space-between
-    
+}
+
+#matcha img {
+    max-height: 300px;
+    object-fit:fit;
 }
 
 ul {
