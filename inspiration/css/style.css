@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+header {
+    background-color: lightgray;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	padding-bottom: 2%;
+    width: 100%;
+}
+
+#gif {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    margin: 2%;
+}
+nav {
+    color: black;
+    display: flex;
+    gap: 20px;
+    font-family: "baskerville", sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    background-color:whitesmoke;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 4.3vw;
+    letter-spacing: 2px;
+    margin: bottom 40px;
+    transform: scaleY(3);
+    padding: 40px;
+}
+
+.container {
+    max width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+.leftColumn {
+    flex: 1;
+    padding-right: 20px;
+}
+
+p {
+    font-family: "baskerville", sans-serif;
+    font-size: 18px;
+}
+
+.rightColumn {
+    width: 40%;
+}
+
+.rightColumn img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: lightgray;
+	height: 10dvw;
+    font-family: "baskerville", sans-serif;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

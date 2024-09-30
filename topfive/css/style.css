@@ -1,0 +1,105 @@
+/*page layout inspired by marisa kahn. thank you marisa!!*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+header {
+    background-color: lightgray;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	padding-bottom: 2%;
+    width: 100%;
+}
+
+#gif {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    margin: 2%;
+}
+nav {
+    color: black;
+    display: flex;
+    gap: 20px;
+    font-family: "baskerville", sans-serif;
+}
+
+
+
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 6vw;
+    letter-spacing: 2px;
+    transform: scaleY(3);
+    margin: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ol, ul, dl {
+    font-family: "baskerville", sans-serif;
+}
+.listContainer {
+    max width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    max height: 80%;
+}
+
+
+ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+    height: 30%;
+}
+
+
+
+footer {
+    background-color: lightgray;
+	height: 10dvw;
+    font-family: "baskerville", sans-serif;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
