@@ -71,13 +71,14 @@ ol, ul, dl {
 ol {
     display: flex;
     flex-direction: row;
+    flex:1;
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 20px;
     padding: 10px;
     list-style: none;
     max-height: 300px;
-    object-fit: cover;
+    justify-content: space-between
     
 }
 
