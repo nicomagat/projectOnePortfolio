@@ -82,6 +82,9 @@ ol {
 
 #matcha img {
     max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex wrap: wrap;
     object-fit:fit;
 }
 
